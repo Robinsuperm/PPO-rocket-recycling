@@ -25,3 +25,11 @@ pip install -r requirements.txt
 
 # 3. 开始训练
 python train.py
+
+致谢
+本项目直接使用了 jiupinjia/rocket-recycling 开源环境，在此对原作者表示衷心感谢！
+若需引用，请同时标注原环境仓库。
+参考
+
+PPO 原论文：Proximal Policy Optimization Algorithms
+环境来源：https://github.com/jiupinjia/rocket-recycling
