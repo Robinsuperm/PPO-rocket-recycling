@@ -9,7 +9,7 @@
 ### 核心贡献
 - 将原始环境接入 PPO 框架，构建 Actor-Critic 网络（Categorical 策略采样）
 - 实现 GAE 优势函数估计、Clip surrogate 目标、熵正则项
-- 通过 RolloutBuffer + 多轮更新，实现了从 -500 奖励到稳定正值的收敛
+- 通过 RolloutBuffer + 多轮更新，实现了从 -300 奖励到稳定400的收敛
 
 ### 训练结果
 - 最终累计奖励从 -300 显著提升至正值
