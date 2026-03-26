@@ -13,15 +13,13 @@
 - 为后续**多智能体协同火箭回收**研究打下基础（与上海科技大学 AIDA 实验室田政老师的多智能体系统方向高度契合）
 
 ### 训练结果
-- 最终累计奖励从 -500 显著提升至正值
+- 最终累计奖励从 -300 显著提升至正值
 - 成功实现稳定软着陆（姿态控制 + 垂直着陆）
-- 模型文件已保存在 `PPO_preTrained/RocketLanding/`
 
 ### 如何复现
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/你的用户名/你的仓库名.git
-cd 你的仓库名
+git clone https://github.com/Robinsuperm/PPO-rocket-recycling.git
 
 # 2. 安装依赖
 pip install -r requirements.txt
